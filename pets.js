@@ -73,7 +73,7 @@ function read(command, data) {
 // Allows us to update the information in the appropiate indexes
 function update(data, newInfo) {
     let index = Number(newInfo[3]);
-    let age = NumbernewInfo[4];
+    let age = Number(newInfo[4]);
     let kind = newInfo[5];
     let name = newInfo[6];
     console.log('information changed');
